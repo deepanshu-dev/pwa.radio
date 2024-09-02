@@ -2,7 +2,7 @@
     "name": "FM Radio",
     "short_name": "Radio",
     "description": "Listen to your favorite FM stations",
-    "start_url": "/index.html",
+    "start_url": "index.html",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#000000",
