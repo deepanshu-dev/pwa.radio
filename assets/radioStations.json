@@ -1,0 +1,113 @@
+[
+  {
+    "hls": false,
+    "name": "Dhol Radio (Punjabi)",
+    "url": "http://radio.dholradio.co:8000/radio.mp3"
+  },
+  {
+    "hls": false,
+    "name": " (Punjabi)",
+    "url": "https://stream.zeno.fm/1k0y9f0cm0quv"
+  },
+  {
+    "hls": false,
+    "name": " (Punjabi)",
+    "url": "https://stream.zeno.fm/vpak30btzwzuv"
+  },
+  { "hls": false, "name": "One.FM", "url": "http://sc-bb.1.fm:8017" },
+  {
+    "hls": false,
+    "name": "Radio City",
+    "url": "https://prclive4.listenon.in/Ishq"
+  },
+  {
+    "hls": false,
+    "name": "Big FM",
+    "url": "https://funasia.streamguys1.com/live4"
+  },
+  {
+    "hls": false,
+    "name": "Ishq FM",
+    "url": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
+  },
+  {
+    "hls": false,
+    "name": "Spice Radio",
+    "url": "http://134.209.0.236:8000/CJRJ"
+  },
+  {
+    "hls": false,
+    "name": "Radio Mirchi",
+    "url": "http://peridot.streamguys.com:7150/Mirchi"
+  },
+  {
+    "hls": false,
+    "name": "Suno FM",
+    "url": "http://51.255.235.165:5476/stream.mp3"
+  },
+  {
+    "hls": true,
+    "name": "AIR Vividh Bharti",
+    "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "AIR Jalandhar",
+    "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio138/playlist.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "AIR Delhi/ Indraprastha",
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio002/hlspbaudio002_Auto.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "AIR FM Rainbow",
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio003/hlspbaudio003_Auto.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "AIR FM Rainbow",
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio004_Auto.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "AIR Delhi/ FM Gold",
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "AIR Delhi/ Indraprastha",
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio006/hlspbaudio006_Auto.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "AIR Maharashtra",
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio007/hlspbaudio007_Auto.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "",
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio008/hlspbaudio008_Auto.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "",
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio009/hlspbaudio009_Auto.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "",
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio010/hlspbaudio010_Auto.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "",
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio011/hlspbaudio011_Auto.m3u8"
+  },
+  {
+    "hls": true,
+    "name": "",
+    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio138/hlspbaudio138_Auto.m3u8"
+  }
+]
