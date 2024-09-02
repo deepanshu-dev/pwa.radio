@@ -1,9 +1,9 @@
 const cacheName = 'fm-radio-cache';
 const assets = [
-    '/index.html',
-    '/styles.css',
-    '/app.js',
-    '/manifest.json'
+    'index.html',
+    'styles.css',
+    'app.js',
+    'manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
