@@ -4,8 +4,8 @@
     "description": "Listen to your favorite FM stations",
     "start_url": "index.html",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#000000",
+    "background_color": "#2c2c37",
+    "theme_color": "#edac5e",
     "icons": [
         {
             "src": "assets/icons/icon-192x192.png",

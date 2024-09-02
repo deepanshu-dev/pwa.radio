@@ -1,6 +1,5 @@
 const cacheName = 'fm-radio-cache';
 const assets = [
-    '/',
     '/index.html',
     '/styles.css',
     '/app.js',
