@@ -1,5 +1,13 @@
 let hlsPlayer = videojs('hlsPlayer');
+let volume = document.getElementById("vol")
 const audioPlayer = document.getElementById('audioPlayer');
+
+function toggleMute() {
+    if (volume.src.includes("unmute")) volume.src = "assets/svg/volume-mute.svg";
+    else volume.src = "assets/svg/volume-unmute.svg";
+    hlsPlayer.muted(!hlsPlayer.muted());
+    audioPlayer.muted = !audioPlayer.muted;
+}
 
 function createCard(station) {
     const card = document.createElement('div');
@@ -7,6 +15,7 @@ function createCard(station) {
     card.innerHTML = `<span>${station.name || 'Unnamed Station'}</h3>`;
 
     card.addEventListener('click', (e) => {
+        volume.style.display = "block";
         const active = document.getElementsByClassName("card active");
         for (let index = 0; index < active.length; index++)
         {        
@@ -53,6 +62,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     // Initialize the Video.js player
     videojs('audioPlayer');
+    volume.addEventListener("click", toggleMute);
 });
 
 // Register service worker
