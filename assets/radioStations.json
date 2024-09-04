@@ -1,77 +1,72 @@
 [
   {
-    "hls": false,
-    "name": "Radio City",
-    "url": "https://prclive4.listenon.in/Ishq"
+    "name": "Radio City (Hindi)",
+    "streamURL": "https://prclive4.listenon.in/Ishq"
   },
   {
-    "hls": false,
-    "name": "Big FM",
-    "url": "https://funasia.streamguys1.com/live4"
+    "name": "Big FM (Hindi)",
+    "streamURL": "https://funasia.streamguys1.com/live4"
   },
   {
-    "hls": false,
-    "name": "Ishq FM",
-    "url": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
+    "name": "Ishq FM (Hindi)",
+    "streamURL": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
   },
   {
-    "hls": true,
-    "name": "Unnamed Station",
-    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio008/hlspbaudio008_Auto.m3u8"
+    "name": "Unnamed Station (Hindi)",
+    "streamURL": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio008/hlspbaudio008_Auto.m3u8"
   },
   {
-    "hls": true,
-    "name": "Unnamed Station",
-    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio009/hlspbaudio009_Auto.m3u8"
+    "name": "Unnamed Station (Hindi)",
+    "streamURL": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio011/hlspbaudio011_Auto.m3u8"
   },
   {
-    "hls": true,
-    "name": "Unnamed Station",
-    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio010/hlspbaudio010_Auto.m3u8"
+    "name": "AIR Vividh Bharti (Hindi)",
+    "streamURL": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8",
+    "imageURL": "https://traderblog.net/images/india/83014.v6.png"
   },
   {
-    "hls": true,
-    "name": "Unnamed Station",
-    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio011/hlspbaudio011_Auto.m3u8"
+    "name": "AIR FM Rainbow (Hindi)",
+    "streamURL": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio004_Auto.m3u8",
+    "imageURL": "https://traderblog.net/images/india/83396.v3.png"
   },
   {
-    "hls": true,
-    "name": "Unnamed Station",
-    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio138/hlspbaudio138_Auto.m3u8"
+    "name": "AIR FM Gold (Hindi)",
+    "streamURL": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8",
+    "imageURL": "https://traderblog.net/images/india/83395.v3.png"
   },
   {
-    "hls": true,
-    "name": "Vividh Bharti",
-    "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8"
+    "name": "AIR Indraprastha (Hindi)",
+    "streamURL": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio002/hlspbaudio002_Auto.m3u8"
   },
   {
-    "hls": true,
-    "name": "FM Rainbow",
-    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio004_Auto.m3u8"
-  },
-  {
-    "hls": true,
-    "name": "FM Gold",
-    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8"
-  },
-  {
-    "hls": true,
-    "name": "AIR Indraprastha",
-    "url": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio002/hlspbaudio002_Auto.m3u8"
-  },
-  {
-    "hls": true,
     "name": "AIR Jalandhar (Punjabi/Hindi)",
-    "url": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio138/playlist.m3u8"
+    "streamURL": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio138/chunklist.m3u8"
   },
   {
-    "hls": false,
     "name": "Unnamed Station (Punjabi)",
-    "url": "https://stream.zeno.fm/1k0y9f0cm0quv"
+    "streamURL": "https://stream.zeno.fm/vpak30btzwzuv"
   },
   {
-    "hls": false,
-    "name": "Unnamed Station (Punjabi)",
-    "url": "https://stream.zeno.fm/vpak30btzwzuv"
+    "name": "Bollywood Punjabi Radio (Punjabi)",
+    "streamURL": "https://stream.zeno.fm/1k0y9f0cm0quv",
+    "imageURL": "https://traderblog.net/images/india/78503.v10.png"
+  },
+  {
+    "name": "Dhol Radio (Punjabi)",
+    "streamURL": "https://onlineradiobox.com/json/in/dholradio/play",
+    "imageURL": "https://traderblog.net/images/india/4361.v4.png"
+  },
+  {
+    "name": "Bol Punjabi Radio (Punjabi)",
+    "streamURL": "https://onlineradiobox.com/json/in/bolpunjabiradio/play",
+    "imageURL": "https://traderblog.net/images/india/3848.v4.png"
+  },
+  {
+    "name": "Amrinder Gill (Punjabi)",
+    "streamURL": "https://onlineradiobox.com/json/in/amrindergill/play"
+  },
+  {
+    "name": "Film at Music (Punjabi)",
+    "streamURL": "https://onlineradiobox.com/json/in/filmatmusic/play"
   }
 ]

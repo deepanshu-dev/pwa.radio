@@ -1,72 +1,81 @@
-let hlsPlayer = videojs('hlsPlayer');
-let volume = document.getElementById("vol")
-const audioPlayer = document.getElementById('audioPlayer');
+const hlsPlayer = document.getElementById("hlsPlayer");
+const audioPlayer = document.getElementById("audioPlayer");
+const volume = document.getElementById("vol");
+let hls;
 
 function toggleMute() {
-    if (volume.src.includes("unmute")) volume.src = "assets/svg/volume-mute.svg";
-    else volume.src = "assets/svg/volume-unmute.svg";
-    hlsPlayer.muted(!hlsPlayer.muted());
-    audioPlayer.muted = !audioPlayer.muted;
+  if (volume.src.includes("unmute")) volume.src = "assets/svg/volume-mute.svg";
+  else volume.src = "assets/svg/volume-unmute.svg";
+  hlsPlayer.muted = !hlsPlayer.muted;
+  audioPlayer.muted = !audioPlayer.muted;
 }
 
 function createCard(station) {
-    const card = document.createElement('div');
-    card.className = 'card';
-    card.innerHTML = `<span>${station.name || 'Unnamed Station'}</h3>`;
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `<span>${station.name || "Unnamed Station"}</span>`;
 
-    card.addEventListener('click', (e) => {
-        volume.style.display = "block";
-        const active = document.getElementsByClassName("card active");
-        for (let index = 0; index < active.length; index++)
-        {        
-            active[index].classList.remove("active");
-        }
-        card.classList.add("active");
-    
-        hlsPlayer.pause();
-        hlsPlayer.src('');
-        hlsPlayer.load();
+  card.addEventListener("click", (e) => {
+    volume.style.display = "block";
+    const active = document.getElementsByClassName("card active");
+    for (let index = 0; index < active.length; index++) {
+      active[index].classList.remove("active");
+    }
+    card.classList.add("active");
 
-        audioPlayer.pause();
-        audioPlayer.src = '';
-        audioPlayer.load();  
-        if (station.hls) {
-            hlsPlayer.src({
-                src: station.url,
-                type: 'application/x-mpegURL'
-            });
-            hlsPlayer.play();   
-        }
-        else {
-            audioPlayer.src = station.url;
-            audioPlayer.play();
-        }
-    });
-    return card;
+    hlsPlayer.pause();
+
+    audioPlayer.pause();
+    audioPlayer.src = "";
+
+    if (station.streamURL.endsWith(".m3u8")) loadHLS(station);
+    else {
+      audioPlayer.src = station.streamURL;
+      audioPlayer.play();
+    }
+  });
+  return card;
 }
 
-async function getJSON() {
-    const response = await fetch("assets/radioStations.json");
-    const json = await response.json();
-    return json;
+function loadHLS(station) {
+  if (Hls.isSupported()) {
+    if (hls) hls.destroy(); // Destroy the previous instance if it exists
+    hls = new Hls();
+    hls.loadSource(station.streamURL);
+    hls.attachMedia(hlsPlayer);
+    hls.on(Hls.Events.MANIFEST_PARSED, function () {
+      hlsPlayer.play();
+    });
+  } else if (hlsPlayer.canPlayType("application/vnd.apple.mpegurl")) {
+    hlsPlayer.src = station.streamURL;
+    hlsPlayer.addEventListener("loadedmetadata", function () {
+      hlsPlayer.play();
+    });
+  }
 }
 
-document.addEventListener('DOMContentLoaded', async () => {
-    const app = document.getElementById('app');
+async function getStations() {
+  let stations = [];
+  let response = await fetch("assets/radioStations.json");
+  stations = await response.json();
+  return stations;
+}
 
-    const radioStations = await getJSON();
-    radioStations.forEach(station => {
-        const card = createCard(station);
-        app.appendChild(card);
+document.addEventListener("DOMContentLoaded", async () => {
+  const app = document.getElementById("app");
+  const radioStations = await getStations();
+  if (radioStations.length > 0) {
+    radioStations.forEach((station) => {
+      const card = createCard(station);
+      app.appendChild(card);
     });
-
-    // Initialize the Video.js player
-    videojs('audioPlayer');
     volume.addEventListener("click", toggleMute);
+  }
 });
 
 // Register service worker
-if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('service-worker.js')
-        .then(() => console.log('Service Worker Registered'));
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker
+    .register("service-worker.js")
+    .then(() => console.log("Service Worker Registered"));
 }
