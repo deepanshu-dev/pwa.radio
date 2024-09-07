@@ -1,38 +1,15 @@
 [
   {
-    "name": "Radio City (Hindi)",
-    "streamURL": "https://prclive4.listenon.in/Ishq"
-  },
-  {
-    "name": "Big FM (Hindi)",
-    "streamURL": "https://funasia.streamguys1.com/live4"
-  },
-  {
-    "name": "Ishq FM (Hindi)",
-    "streamURL": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
-  },
-  {
-    "name": "Unnamed Station (Hindi)",
-    "streamURL": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio008/hlspbaudio008_Auto.m3u8"
-  },
-  {
-    "name": "Unnamed Station (Hindi)",
-    "streamURL": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio011/hlspbaudio011_Auto.m3u8"
-  },
-  {
     "name": "AIR Vividh Bharti (Hindi)",
-    "streamURL": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8",
-    "imageURL": "https://traderblog.net/images/india/83014.v6.png"
+    "streamURL": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/chunklist.m3u8"    
   },
   {
     "name": "AIR FM Rainbow (Hindi)",
-    "streamURL": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio004_Auto.m3u8",
-    "imageURL": "https://traderblog.net/images/india/83396.v3.png"
+    "streamURL": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio004/hlspbaudio004_Auto.m3u8"    
   },
   {
     "name": "AIR FM Gold (Hindi)",
-    "streamURL": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8",
-    "imageURL": "https://traderblog.net/images/india/83395.v3.png"
+    "streamURL": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8"    
   },
   {
     "name": "AIR Indraprastha (Hindi)",
@@ -43,30 +20,75 @@
     "streamURL": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio138/chunklist.m3u8"
   },
   {
-    "name": "Unnamed Station (Punjabi)",
+    "name": "AIR Patiala (Punjabi/Hindi)",
+    "streamURL": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio163/chunklist.m3u8"
+  },
+  {
+    "name": "AIR Chandigarh (Punjabi/Hindi)",
+    "streamURL": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio111/chunklist.m3u8"
+  },
+  {
+    "name": "Radio City (Hindi) (Mumbai)",
+    "streamURL": "https://stream.zeno.fm/pxc55r5uyc9uv"
+  },
+  {
+    "name": "Big FM (Hindi) (Mumbai)",
+    "streamURL": "https://funasia.streamguys1.com/live4"
+  },
+  {
+    "name": "Big FM International (Hindi) (UAE)",
+    "streamURL": "https://funasia.streamguys1.com/live11"
+  },
+  {
+    "name": "Ishq FM (Hindi) (Mumbai)",
+    "streamURL": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
+  },
+  {
+    "name": "Radio Mirchi New Jersey 92.7 (Hindi) (USA)",
+    "streamURL": "https://playerservices.streamtheworld.com/api/livestream-redirect/NJS_HIN_ESTAAC.m3u8"
+  },
+  {
+    "name": "Radio Mirchi Dubai 102.4 (Hindi) (UAE)",
+    "streamURL": "https://playerservices.streamtheworld.com/api/livestream-redirect/DUB_HIN_GSTAAC.m3u8"
+  },
+  {
+    "name": "Radio Punjabi Virsa (Punjabi) (UK)",
     "streamURL": "https://stream.zeno.fm/vpak30btzwzuv"
   },
   {
-    "name": "Bollywood Punjabi Radio (Punjabi)",
-    "streamURL": "https://stream.zeno.fm/1k0y9f0cm0quv",
-    "imageURL": "https://traderblog.net/images/india/78503.v10.png"
+    "name": "Old Punjabi Songs (Punjabi) (Germany)",
+    "streamURL" : "https://stream.zeno.fm/9rgew0btzwzuv"
   },
   {
-    "name": "Dhol Radio (Punjabi)",
-    "streamURL": "https://onlineradiobox.com/json/in/dholradio/play",
-    "imageURL": "https://traderblog.net/images/india/4361.v4.png"
+    "name": "Radio Beat (Punjabi) (Chennai)",
+    "streamURL": "https://listen.openstream.co/7028/audio"
   },
   {
-    "name": "Bol Punjabi Radio (Punjabi)",
-    "streamURL": "https://onlineradiobox.com/json/in/bolpunjabiradio/play",
-    "imageURL": "https://traderblog.net/images/india/3848.v4.png"
+    "name": "Bol Punjabi Radio (Punjabi) (Mohali)",
+    "streamURL": "https://bolpunjabi-ekamsoftware.radioca.st/stream"
+  },
+  {
+    "name": "Radio Punjabi Today (Punjabi) (Bathinda)",
+    "streamURL": "https://stream.zeno.fm/019324w4ez4tv"
+  },
+  {
+    "name": "Desi World Radio (Punjabi) (Malout)",
+    "streamURL": "https://stream.zeno.fm/4mbfcn4mf24tv"
+  },
+  {
+    "name": "Bollywood Punjabi Radio (Punjabi) (Patiala)",
+    "streamURL": "https://stream.zeno.fm/1k0y9f0cm0quv"
+  },
+  {
+    "name": "Filmat Music (Punjabi) (Ludhiana)",
+    "streamURL": "https://stream.zeno.fm/0eukcvcf8tzuv"
+  },
+  {
+    "name": "Radio (Punjabi)",
+    "streamURL" : "https://stream.zeno.fm/1hv8up0ww8quv"
   },
   {
     "name": "Amrinder Gill (Punjabi)",
-    "streamURL": "https://onlineradiobox.com/json/in/amrindergill/play"
-  },
-  {
-    "name": "Film at Music (Punjabi)",
-    "streamURL": "https://onlineradiobox.com/json/in/filmatmusic/play"
+    "streamURL": "https://stream.zeno.fm/ntswtgpemzzuv"
   }
 ]
