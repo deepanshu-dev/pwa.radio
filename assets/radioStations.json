@@ -28,20 +28,28 @@
     "streamURL": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio111/chunklist.m3u8"
   },
   {
-    "name": "Radio City (Hindi) (Mumbai)",
+    "name": "Radio City 91.1 (Hindi) (Mumbai)",
     "streamURL": "https://stream.zeno.fm/pxc55r5uyc9uv"
   },
+ {
+    "name": "Ishq FM 104.8 (Hindi) (Mumbai)",
+    "streamURL": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
+  },
   {
-    "name": "Big FM (Hindi) (Mumbai)",
+    "name": "Big FM 106.2 (Hindi) (Mumbai)",
     "streamURL": "https://funasia.streamguys1.com/live4"
   },
   {
-    "name": "Big FM International (Hindi) (UAE)",
+    "name": "Big FM International 104.9 (Hindi) (UAE)",
     "streamURL": "https://funasia.streamguys1.com/live11"
   },
-  {
-    "name": "Ishq FM (Hindi) (Mumbai)",
-    "streamURL": "https://drive.uber.radio/uber/bollywoodlove/icecast.audio"
+ {
+    "name": "Big Melodies (Hindi) (UAE)",
+    "streamURL": "https://funasia.streamguys1.com/live9"
+  },
+ {
+    "name": "Radio Mirchi 98.3 (Hindi) (Mumbai)",
+    "streamURL": "https://listen.openstream.co/7046/audio"
   },
   {
     "name": "Radio Mirchi New Jersey 92.7 (Hindi) (USA)",
