@@ -4,6 +4,7 @@ const assets = [
   "styles.css",
   "app.js",
   "manifest.json",
+  "assets/radioStations.json",
   "assets/favicon.ico",
   "assets/icons/icon-192x192.png",
   "assets/icons/icon-512x512.png",

@@ -16,6 +16,10 @@ function createCard(station) {
   card.innerHTML = `<span>${station.name || "Unnamed Station"}</span>`;
 
   card.addEventListener("click", (e) => {
+    if (!navigator.onLine) {
+      alert("You are currently offline. Some features may not work.");
+      return false;
+    }
     volume.style.display = "block";
     const active = document.getElementsByClassName("card active");
     for (let index = 0; index < active.length; index++) {
@@ -71,6 +75,17 @@ document.addEventListener("DOMContentLoaded", async () => {
     });
     volume.addEventListener("click", toggleMute);
   }
+});
+
+// Add this check in your app.js or inline script of index.html
+window.addEventListener("load", () => {
+  window.addEventListener("offline", () => {
+    // alert("You have lost internet connection.");
+  });
+
+  window.addEventListener("online", () => {
+    // alert("You are back online.");
+  });
 });
 
 // Register service worker
